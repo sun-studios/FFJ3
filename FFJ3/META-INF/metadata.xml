@@ -5,8 +5,8 @@
             xmlns:xmp="http://ns.adobe.com/xap/1.0/">
          <xmp:CreatorTool>Adobe Flash Professional CS6 - build 481</xmp:CreatorTool>
          <xmp:CreateDate>2023-01-03T17:24:22+11:00</xmp:CreateDate>
-         <xmp:MetadataDate>2023-01-03T19:21:55+11:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2023-01-03T19:21:55+11:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2023-01-03T21:38:33+11:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2023-01-03T21:38:33+11:00</xmp:ModifyDate>
       </rdf:Description>
       <rdf:Description rdf:about=""
             xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -22,7 +22,7 @@
             <stRef:originalDocumentID>xmp.did:CFD054512F8BED1186CEC61EBF2EF74B</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <xmpMM:DocumentID>xmp.did:A2D42FDD3C8BED1186CEC61EBF2EF74B</xmpMM:DocumentID>
-         <xmpMM:InstanceID>xmp.iid:A2D42FDD3C8BED1186CEC61EBF2EF74B</xmpMM:InstanceID>
+         <xmpMM:InstanceID>xmp.iid:72BE78C5528BED1185A485FD7403F557</xmpMM:InstanceID>
          <xmpMM:OriginalDocumentID>xmp.did:CFD054512F8BED1186CEC61EBF2EF74B</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -44,6 +44,18 @@
                   <stEvt:when>2023-01-03T19:21:55+11:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Flash Professional CS6 - build 481</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>created</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:77BE8DAC528BED11B081C6F3868B796C</stEvt:instanceID>
+                  <stEvt:when>2023-01-03T17:24:22+11:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Flash Professional CS6 - build 481</stEvt:softwareAgent>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>created</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:72BE78C5528BED1185A485FD7403F557</stEvt:instanceID>
+                  <stEvt:when>2023-01-03T17:24:22+11:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Flash Professional CS6 - build 481</stEvt:softwareAgent>
                </rdf:li>
             </rdf:Seq>
          </xmpMM:History>

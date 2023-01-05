@@ -14,4 +14,8 @@ class Base
 		return parent.attachMovie(libraryName, libraryName+parent.getNextHighestDepth(), parent.getNextHighestDepth());
 	}
 	
+	public function update ():Void {
+		
+	}
+	
 }

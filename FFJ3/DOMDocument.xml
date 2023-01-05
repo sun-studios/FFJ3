@@ -1,6 +1,21 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1280" height="720" frameRate="60" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" objectsSnapTo="false" viewAngle3D="100.925968316201" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+     <folders>
+          <DOMFolderItem name="Scenes" itemID="63b404f3-000001d9" isExpanded="true"/>
+          <DOMFolderItem name="Scenes/00" itemID="63b404f3-000001da" isExpanded="true"/>
+          <DOMFolderItem name="Scripts" itemID="63b410c9-00000328"/>
+     </folders>
      <symbols>
           <Include href="Hero.xml" itemID="63b3cdae-000001ec" lastModified="1672727985"/>
+          <Include href="Scenes/00/Scene-00.xml" itemID="63b3febb-00000156" lastModified="1672749227"/>
+          <Include href="Scenes/00/Symbol 1.xml" loadImmediate="false" itemID="63b3fe03-0000012c" lastModified="1672745911"/>
+          <Include href="Scenes/00/Symbol 2.xml" loadImmediate="false" itemID="63b3fe1f-00000132" lastModified="1672740383"/>
+          <Include href="Scenes/00/Symbol 3.xml" loadImmediate="false" itemID="63b3fe3f-00000138" lastModified="1672740419"/>
+          <Include href="Scenes/00/Symbol 4.xml" loadImmediate="false" itemID="63b3fe4c-0000013c" lastModified="1672740429"/>
+          <Include href="Scenes/00/Symbol 5.xml" loadImmediate="false" itemID="63b3fe53-00000140" lastModified="1672740435"/>
+          <Include href="Scenes/00/Symbol 6.xml" loadImmediate="false" itemID="63b3fe57-00000144" lastModified="1672740439"/>
+          <Include href="Scenes/00/Symbol 7.xml" loadImmediate="false" itemID="63b3fe73-0000014a" lastModified="1672740467"/>
+          <Include href="Scenes/00/Symbol 8.xml" loadImmediate="false" itemID="63b3fe76-0000014e" lastModified="1672740471"/>
+          <Include href="Scenes/00/Symbol 9.xml" loadImmediate="false" itemID="63b3fe7d-00000152" lastModified="1672740477"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -9,7 +24,23 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[var main:Main = new Main(this);]]></script>
+                                        <script><![CDATA[var scene:MovieClip;
+
+onEnterFrame = update;
+
+init();
+
+function init ():Void {
+	
+	scene = this.attachMovie("Scene_0_Clip", "Scene", this.getNextHighestDepth(), this.getNextHighestDepth());
+	scene._xscale = 66.6;
+	scene._yscale = 66.6;
+	
+}
+
+function update ():Void {
+	scene.update();
+}]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -20,15 +51,25 @@
      </timelines>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="881" publishTime="1672728100"/>
-          <PublishItem publishSize="873" publishTime="1672728094"/>
-          <PublishItem publishSize="738" publishTime="1672727806"/>
-          <PublishItem publishSize="730" publishTime="1672727797"/>
-          <PublishItem publishSize="722" publishTime="1672727768"/>
-          <PublishItem publishSize="722" publishTime="1672727651"/>
-          <PublishItem publishSize="786" publishTime="1672727611"/>
-          <PublishItem publishSize="773" publishTime="1672727598"/>
-          <PublishItem publishSize="680" publishTime="1672727562"/>
-          <PublishItem publishSize="513" publishTime="1672727224"/>
+          <PublishItem publishSize="14108" publishTime="1672747873"/>
+          <PublishItem publishSize="14105" publishTime="1672747847"/>
+          <PublishItem publishSize="14104" publishTime="1672747177"/>
+          <PublishItem publishSize="14105" publishTime="1672746977"/>
+          <PublishItem publishSize="14122" publishTime="1672746961"/>
+          <PublishItem publishSize="14067" publishTime="1672746861"/>
+          <PublishItem publishSize="14058" publishTime="1672746737"/>
+          <PublishItem publishSize="14058" publishTime="1672746706"/>
+          <PublishItem publishSize="14058" publishTime="1672746691"/>
+          <PublishItem publishSize="14044" publishTime="1672746601"/>
+          <PublishItem publishSize="14056" publishTime="1672746583"/>
+          <PublishItem publishSize="14085" publishTime="1672746515"/>
+          <PublishItem publishSize="14076" publishTime="1672746472"/>
+          <PublishItem publishSize="14047" publishTime="1672746436"/>
+          <PublishItem publishSize="13753" publishTime="1672746152"/>
+          <PublishItem publishSize="13744" publishTime="1672746145"/>
+          <PublishItem publishSize="13729" publishTime="1672746099"/>
+          <PublishItem publishSize="13727" publishTime="1672746086"/>
+          <PublishItem publishSize="13645" publishTime="1672746073"/>
+          <PublishItem publishSize="13728" publishTime="1672746042"/>
      </publishHistory>
 </DOMDocument>

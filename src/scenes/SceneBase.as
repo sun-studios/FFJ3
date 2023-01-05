@@ -14,4 +14,8 @@ class scenes.SceneBase extends Base
 		
 	}
 	
+	public function update ():Void {
+		super.update();
+	}
+	
 }
