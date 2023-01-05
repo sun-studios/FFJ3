@@ -1,8 +1,6 @@
 class Base
 {
 	
-	public var clip:MovieClip;
-	
 	public function Base() 
 	{
 		

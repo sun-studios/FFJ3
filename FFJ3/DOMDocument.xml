@@ -1,12 +1,13 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1280" height="720" frameRate="60" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" objectsSnapTo="false" viewAngle3D="100.925968316201" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="Scenes" itemID="63b404f3-000001d9" isExpanded="true"/>
-          <DOMFolderItem name="Scenes/00" itemID="63b404f3-000001da" isExpanded="true"/>
+          <DOMFolderItem name="Scenes/00" itemID="63b404f3-000001da"/>
+          <DOMFolderItem name="Scenes/Game" itemID="63b6b5af-000002a2" isExpanded="true"/>
           <DOMFolderItem name="Scripts" itemID="63b410c9-00000328"/>
      </folders>
      <symbols>
           <Include href="Hero.xml" itemID="63b3cdae-000001ec" lastModified="1672727985"/>
-          <Include href="Scenes/00/Scene-00.xml" itemID="63b3febb-00000156" lastModified="1672749227"/>
+          <Include href="Scenes/00/Scene-00.xml" itemID="63b3febb-00000156" lastModified="1672916379"/>
           <Include href="Scenes/00/Symbol 1.xml" loadImmediate="false" itemID="63b3fe03-0000012c" lastModified="1672745911"/>
           <Include href="Scenes/00/Symbol 2.xml" loadImmediate="false" itemID="63b3fe1f-00000132" lastModified="1672740383"/>
           <Include href="Scenes/00/Symbol 3.xml" loadImmediate="false" itemID="63b3fe3f-00000138" lastModified="1672740419"/>
@@ -16,11 +17,21 @@
           <Include href="Scenes/00/Symbol 7.xml" loadImmediate="false" itemID="63b3fe73-0000014a" lastModified="1672740467"/>
           <Include href="Scenes/00/Symbol 8.xml" loadImmediate="false" itemID="63b3fe76-0000014e" lastModified="1672740471"/>
           <Include href="Scenes/00/Symbol 9.xml" loadImmediate="false" itemID="63b3fe7d-00000152" lastModified="1672740477"/>
+          <Include href="Scenes/Game/GameClip.xml" itemID="63b6b5ca-000002a4" lastModified="1672927197"/>
+          <Include href="Scenes/Game/Poo.xml" itemID="63b6c0bd-000002e1" lastModified="1672927222"/>
+          <Include href="Scenes/Game/Roxanne.xml" itemID="63b6c0c7-000002e3" lastModified="1672925208"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -30,7 +41,26 @@ onEnterFrame = function () {
 	main.update();
 }]]></script>
                                    </Actionscript>
-                                   <elements/>
+                                   <elements>
+                                        <DOMShape>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="!25600 14400|0 14400!0 14400|0 0!0 0|25600 0!25600 0|25600 14400"/>
+                                                  <Edge cubics="!0 14400(;0,14400 0,0 0,0q0 14400 0 0);"/>
+                                                  <Edge cubics="!25600 14400(;25600,14400 0,14400 0,14400q25600 14400 0 14400);"/>
+                                                  <Edge cubics="!25600 0(;25600,0 25600,14400 25600,14400q25600 0 25600 14400);"/>
+                                                  <Edge cubics="!0 0(0,0;0,0 25600,0 25600,0q0 0 25600 0);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -39,25 +69,25 @@ onEnterFrame = function () {
      </timelines>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="14500" publishTime="1672901374"/>
-          <PublishItem publishSize="14377" publishTime="1672901354"/>
-          <PublishItem publishSize="14956" publishTime="1672900918"/>
-          <PublishItem publishSize="15008" publishTime="1672900900"/>
-          <PublishItem publishSize="14108" publishTime="1672747873"/>
-          <PublishItem publishSize="14105" publishTime="1672747847"/>
-          <PublishItem publishSize="14104" publishTime="1672747177"/>
-          <PublishItem publishSize="14105" publishTime="1672746977"/>
-          <PublishItem publishSize="14122" publishTime="1672746961"/>
-          <PublishItem publishSize="14067" publishTime="1672746861"/>
-          <PublishItem publishSize="14058" publishTime="1672746737"/>
-          <PublishItem publishSize="14058" publishTime="1672746706"/>
-          <PublishItem publishSize="14058" publishTime="1672746691"/>
-          <PublishItem publishSize="14044" publishTime="1672746601"/>
-          <PublishItem publishSize="14056" publishTime="1672746583"/>
-          <PublishItem publishSize="14085" publishTime="1672746515"/>
-          <PublishItem publishSize="14076" publishTime="1672746472"/>
-          <PublishItem publishSize="14047" publishTime="1672746436"/>
-          <PublishItem publishSize="13753" publishTime="1672746152"/>
-          <PublishItem publishSize="13744" publishTime="1672746145"/>
+          <PublishItem publishSize="19174" publishTime="1672927477"/>
+          <PublishItem publishSize="19174" publishTime="1672927453"/>
+          <PublishItem publishSize="19134" publishTime="1672927224"/>
+          <PublishItem publishSize="19291" publishTime="1672927181"/>
+          <PublishItem publishSize="19768" publishTime="1672927152"/>
+          <PublishItem publishSize="19767" publishTime="1672927134"/>
+          <PublishItem publishSize="19769" publishTime="1672927123"/>
+          <PublishItem publishSize="19766" publishTime="1672927115"/>
+          <PublishItem publishSize="19709" publishTime="1672927075"/>
+          <PublishItem publishSize="19732" publishTime="1672927012"/>
+          <PublishItem publishSize="19732" publishTime="1672926981"/>
+          <PublishItem publishSize="19782" publishTime="1672926961"/>
+          <PublishItem publishSize="19784" publishTime="1672926936"/>
+          <PublishItem publishSize="19792" publishTime="1672926910"/>
+          <PublishItem publishSize="19792" publishTime="1672926877"/>
+          <PublishItem publishSize="19824" publishTime="1672926845"/>
+          <PublishItem publishSize="19825" publishTime="1672926778"/>
+          <PublishItem publishSize="19847" publishTime="1672926737"/>
+          <PublishItem publishSize="19808" publishTime="1672926662"/>
+          <PublishItem publishSize="19808" publishTime="1672926626"/>
      </publishHistory>
 </DOMDocument>

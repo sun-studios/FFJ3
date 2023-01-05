@@ -17,7 +17,7 @@ class managers.SceneManager
 			setScene(scene.name);
 		} else 
 		if (scenes.length > 1) {
-			scene.clip._visible = false;
+			scene.scene._visible = false;
 		}
 		
 	}
@@ -37,11 +37,11 @@ class managers.SceneManager
 		}
 		
 		if (currentScene) {
-			currentScene.clip._visible = false;
+			currentScene.scene._visible = false;
 		}
 		
 		currentScene = scene;
-		currentScene.clip._visible = true;
+		currentScene.scene._visible = true;
 	}
 	
 	public function update () {
