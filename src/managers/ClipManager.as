@@ -1,8 +1,4 @@
-/**
- * ...
- * @author Daniel Sun
- */
-class ClipManager
+class managers.ClipManager
 {
 	
 	private var clips:Array;

@@ -1,40 +1,29 @@
 import data.Library;
+import data.Scenes;
+import managers.ClipManager;
+import managers.Manager;
+import managers.SceneManager;
 import scenes.Scene1;
 import scenes.SceneBase;
+import scenes.Scene_0;
+import scenes.Scene_1;
 
-class Main
+class Main extends Base
 {
-	public static var stage:MovieClip;
-	public static var clipManager:ClipManager;
-	private var i:Number = 0;
-	public var scene:Scene1;
 	
-	public function Main(stage:MovieClip) 
-	{
-		Main.stage = stage;
+	public var manager:Manager;
+	
+	public function Main () {
+		manager = new Manager();
 		
-		Main.clipManager = new ClipManager();
-		stage._xscale = 66.6;
-		stage._yscale = 66.6;
+		Manager.sceneManager.createScene(new Scene_0());
+		Manager.sceneManager.createScene(new Scene_1());
 		
-		
-		init();
-		
-		Main.stage.onEnterFrame = update;
+		Manager.sceneManager.setScene(Scenes.GAME);
 	}
 	
-	public function init ():Void {
-		//Entry Point
-		addScene();
-	}
-	
-	public function update ():Void {
-		this.scene.update();
-		trace(i ++);
-	}
-	
-	public function addScene():Void {
-		this.scene = new Scene1();
+	public function update () {
+		manager.update();
 	}
 	
 }

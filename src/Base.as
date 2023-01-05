@@ -1,17 +1,11 @@
-/**
- * ...
- * @author Daniel Sun
- */
 class Base
 {
+	
+	public var clip:MovieClip;
 	
 	public function Base() 
 	{
 		
-	}
-	
-	public function createLibraryObject(libraryName:String, parent:MovieClip):MovieClip {
-		return parent.attachMovie(libraryName, libraryName+parent.getNextHighestDepth(), parent.getNextHighestDepth());
 	}
 	
 	public function update ():Void {

@@ -1,18 +1,13 @@
 class scenes.SceneBase extends Base
 {
-	
-	public var clip:MovieClip;
+	public var name:String;
 	
 	public function SceneBase(sceneName:String) 
 	{
-		clip = Main.stage.createEmptyMovieClip(sceneName, Main.stage.getNextHighestDepth());
-		
-		init();
+		name = sceneName;
+		clip = _root.createEmptyMovieClip("Scene_0", _root.getNextHighestDepth());
 	}
 	
-	public function init ():Void {
-		
-	}
 	
 	public function update ():Void {
 		super.update();

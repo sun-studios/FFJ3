@@ -24,22 +24,10 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[var scene:MovieClip;
+                                        <script><![CDATA[var main:Main = new Main(this);
 
-onEnterFrame = update;
-
-init();
-
-function init ():Void {
-	
-	scene = this.attachMovie("Scene_0_Clip", "Scene", this.getNextHighestDepth(), this.getNextHighestDepth());
-	scene._xscale = 66.6;
-	scene._yscale = 66.6;
-	
-}
-
-function update ():Void {
-	scene.update();
+onEnterFrame = function () {
+	main.update();
 }]]></script>
                                    </Actionscript>
                                    <elements/>
@@ -51,6 +39,10 @@ function update ():Void {
      </timelines>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="14500" publishTime="1672901374"/>
+          <PublishItem publishSize="14377" publishTime="1672901354"/>
+          <PublishItem publishSize="14956" publishTime="1672900918"/>
+          <PublishItem publishSize="15008" publishTime="1672900900"/>
           <PublishItem publishSize="14108" publishTime="1672747873"/>
           <PublishItem publishSize="14105" publishTime="1672747847"/>
           <PublishItem publishSize="14104" publishTime="1672747177"/>
@@ -67,9 +59,5 @@ function update ():Void {
           <PublishItem publishSize="14047" publishTime="1672746436"/>
           <PublishItem publishSize="13753" publishTime="1672746152"/>
           <PublishItem publishSize="13744" publishTime="1672746145"/>
-          <PublishItem publishSize="13729" publishTime="1672746099"/>
-          <PublishItem publishSize="13727" publishTime="1672746086"/>
-          <PublishItem publishSize="13645" publishTime="1672746073"/>
-          <PublishItem publishSize="13728" publishTime="1672746042"/>
      </publishHistory>
 </DOMDocument>
