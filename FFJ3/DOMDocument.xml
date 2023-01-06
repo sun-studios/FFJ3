@@ -19,7 +19,7 @@
           <Include href="Scenes/00/Symbol 9.xml" loadImmediate="false" itemID="63b3fe7d-00000152" lastModified="1672740477"/>
           <Include href="Scenes/Game/GameClip.xml" itemID="63b6b5ca-000002a4" lastModified="1672927197"/>
           <Include href="Scenes/Game/Poo.xml" itemID="63b6c0bd-000002e1" lastModified="1672927222"/>
-          <Include href="Scenes/Game/Roxanne.xml" itemID="63b6c0c7-000002e3" lastModified="1672925208"/>
+          <Include href="Scenes/Game/Roxanne.xml" itemID="63b6c0c7-000002e3" lastModified="1672929567"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -69,25 +69,25 @@ onEnterFrame = function () {
      </timelines>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="19174" publishTime="1672927477"/>
-          <PublishItem publishSize="19174" publishTime="1672927453"/>
-          <PublishItem publishSize="19134" publishTime="1672927224"/>
-          <PublishItem publishSize="19291" publishTime="1672927181"/>
-          <PublishItem publishSize="19768" publishTime="1672927152"/>
-          <PublishItem publishSize="19767" publishTime="1672927134"/>
-          <PublishItem publishSize="19769" publishTime="1672927123"/>
-          <PublishItem publishSize="19766" publishTime="1672927115"/>
-          <PublishItem publishSize="19709" publishTime="1672927075"/>
-          <PublishItem publishSize="19732" publishTime="1672927012"/>
-          <PublishItem publishSize="19732" publishTime="1672926981"/>
-          <PublishItem publishSize="19782" publishTime="1672926961"/>
-          <PublishItem publishSize="19784" publishTime="1672926936"/>
-          <PublishItem publishSize="19792" publishTime="1672926910"/>
-          <PublishItem publishSize="19792" publishTime="1672926877"/>
-          <PublishItem publishSize="19824" publishTime="1672926845"/>
-          <PublishItem publishSize="19825" publishTime="1672926778"/>
-          <PublishItem publishSize="19847" publishTime="1672926737"/>
-          <PublishItem publishSize="19808" publishTime="1672926662"/>
-          <PublishItem publishSize="19808" publishTime="1672926626"/>
+          <PublishItem publishSize="19505" publishTime="1672929752"/>
+          <PublishItem publishSize="19503" publishTime="1672929216"/>
+          <PublishItem publishSize="19503" publishTime="1672929150"/>
+          <PublishItem publishSize="17918" publishTime="1672929144"/>
+          <PublishItem publishSize="19500" publishTime="1672929128"/>
+          <PublishItem publishSize="19501" publishTime="1672929082"/>
+          <PublishItem publishSize="19485" publishTime="1672929040"/>
+          <PublishItem publishSize="19484" publishTime="1672929034"/>
+          <PublishItem publishSize="19387" publishTime="1672928874"/>
+          <PublishItem publishSize="19387" publishTime="1672928715"/>
+          <PublishItem publishSize="19387" publishTime="1672928587"/>
+          <PublishItem publishSize="19406" publishTime="1672928542"/>
+          <PublishItem publishSize="19406" publishTime="1672928532"/>
+          <PublishItem publishSize="19411" publishTime="1672928521"/>
+          <PublishItem publishSize="19368" publishTime="1672928480"/>
+          <PublishItem publishSize="19387" publishTime="1672928402"/>
+          <PublishItem publishSize="19366" publishTime="1672928291"/>
+          <PublishItem publishSize="19340" publishTime="1672928219"/>
+          <PublishItem publishSize="19293" publishTime="1672928176"/>
+          <PublishItem publishSize="19298" publishTime="1672928143"/>
      </publishHistory>
 </DOMDocument>
