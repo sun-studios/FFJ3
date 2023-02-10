@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/00/Scene-00" itemID="63b3febb-00000156" linkageExportForAS="true" linkageIdentifier="Scene_0_Clip" lastModified="1672916379" lastUniqueIdentifier="7">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/00/Scene-00" itemID="63b3febb-00000156" linkageExportForAS="true" linkageIdentifier="Scene_0_Clip" lastModified="1675948510" lastUniqueIdentifier="7">
   <timeline>
     <DOMTimeline name="Scene-00">
       <layers>
@@ -65,7 +65,7 @@ function getChildrenOf(target:MovieClip,recursive:Boolean):Array{
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Scenes/00/Symbol 1" name="hero" selected="true" centerPoint3DX="378.9" centerPoint3DY="568.05">
+                <DOMSymbolInstance libraryItemName="Scenes/00/Symbol 1" name="hero" centerPoint3DX="378.9" centerPoint3DY="568.05">
                   <matrix>
                     <Matrix tx="368.1" ty="911.2"/>
                   </matrix>

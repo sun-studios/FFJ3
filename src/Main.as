@@ -7,6 +7,7 @@ import scenes.Scene1;
 import scenes.SceneBase;
 import scenes.Scene_0;
 import scenes.game.Scene_1;
+import scenes.game.Scene_2;
 
 class Main extends Base
 {
@@ -19,7 +20,7 @@ class Main extends Base
 	public function Main () {
 		manager = new Manager();
 		
-		Manager.sceneManager.createScene(new Scene_1());
+		Manager.sceneManager.createScene(new Scene_2());
 		
 		Manager.sceneManager.setScene(Scenes.GAME);
 	}
